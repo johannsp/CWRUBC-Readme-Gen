@@ -1,1 +1,3 @@
-node_modules
+.vimrc
+node_modules/**
+reference/**
