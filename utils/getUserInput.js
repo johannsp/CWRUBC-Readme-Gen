@@ -4,7 +4,6 @@ function getUserInput() {
   // Strip off all but the last directory in the full path and use that as a
   // portion of the default for some prompts.
   let cwd=`${process.cwd()}`.replace(/.*[\/\\]/g,"");
-  console.log('∞° cwd="'+cwd,'"');
   return inquirer.prompt([
     {
       type: "editor", name: "github",

@@ -1,7 +1,7 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   let gitHubLink = data.github +
-    ((data.github.endsWith("/") == "/") ? "" : "/") +
+    ((data.github.endsWith("/")) ? "" : "/") +
     data.repo;
   return `# ${data.title}
 

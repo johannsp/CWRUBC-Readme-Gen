@@ -1,9 +1,7 @@
-# CWRUBC-Readme-Gen
-Generate README.md with Node.js
 # Readme-Generator
 
 
-Generate a README.md starter file using Node modules.
+Generate starting README.md using Node modules
 
 
 ## Table of Contents
@@ -29,9 +27,10 @@ Clone this repository and initialize any Node modules by running
 
 ## Usage
 
-Run the program with the follow command and answer all the prompts.
-
+Run with an optional output file name as follows:
+  
   node index.js
+  node index.js READ2ND.md
 
 
 ## License
@@ -54,9 +53,9 @@ Run automated Jest tests with command:
 
 ## Questions
 
-Q: How do I answer longer prompts that utilize a text editor without using Windows Notepad?
+Q: How can the text editor default be changed from Windows Notepad
 
-A: Set the environment variable VISUAL to the path for a preferred text editor.  Eg.
+A: Set the VISUAL environment variable, eg.
 
-  set VISUAL="%PROGRAMFIELS%\Vim\Vim82\Vim.exe"
+  set VISUAL="%PROGRAMFILES%\vim\vim82\vim.exe"
 

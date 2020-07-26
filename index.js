@@ -20,6 +20,10 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 async function init() {
+  let outName = process.argv[2];
+  if (outName === undefined) {
+    outName = "README.md";
+  }
   console.log("Generating README.md...");
   console.log("Just leave blank responses for unneeded sections.");
   const inputs = await getUI.getUserInput();
@@ -33,7 +37,7 @@ async function init() {
   console.log("inputs.contrib\n"+inputs.contrib);
   console.log("inputs.tests\n"+inputs.tests);
   console.log("inputs.license\n"+inputs.license);
-  await appendFileAsync("README.md", genMD.generateMarkdown(inputs));
+  await appendFileAsync(outName, genMD.generateMarkdown(inputs));
 }
 
 // function call to initialize program
