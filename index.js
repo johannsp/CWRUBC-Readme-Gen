@@ -23,13 +23,17 @@ async function init() {
   console.log("Generating README.md...");
   console.log("Just leave blank responses for unneeded sections.");
   const inputs = await getUI.getUserInput();
-  console.log('∞° inputs.title="'+inputs.title,'"');
-  console.log('∞° inputs.desc="'+inputs.desc,'"');
-  console.log('∞° inputs.install="'+inputs.install,'"');
-  console.log('∞° inputs.usage="'+inputs.usage,'"');
-  console.log('∞° inputs.contrib="'+inputs.contrib,'"');
-  console.log('∞° inputs.test="'+inputs.test,'"');
-  console.log('∞° inputs.license="'+inputs.license,'"');
+  console.log("inputs.github\n"+inputs.github);
+  console.log("inputs.repo\n"+inputs.repo);
+  console.log("inputs.title\n"+inputs.title);
+  console.log("inputs.desc\n"+inputs.desc);
+  console.log("inputs.install\n"+inputs.install);
+  console.log("inputs.usage\n"+inputs.usage);
+  console.log("inputs.questions\n"+inputs.questions);
+  console.log("inputs.contrib\n"+inputs.contrib);
+  console.log("inputs.tests\n"+inputs.tests);
+  console.log("inputs.license\n"+inputs.license);
+  await appendFileAsync("README.md", genMD.generateMarkdown(inputs));
 }
 
 // function call to initialize program

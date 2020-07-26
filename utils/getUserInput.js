@@ -1,30 +1,53 @@
 const inquirer = require("inquirer");
 
 function getUserInput() {
+  // Strip off all but the last directory in the full path and use that as a
+  // portion of the default for some prompts.
+  let cwd=`${process.cwd()}`.replace(/.*[\/\\]/g,"");
+  console.log('∞° cwd="'+cwd,'"');
   return inquirer.prompt([
     {
-      type: "input", name: "title",
-      message: "Title:"
+      type: "editor", name: "github",
+      message: "Github Account Link:",
+      default: `https://github.com/${process.env.USERNAME}/`
+    },
+    {
+      type: "editor", name: "repo",
+      message: "Repository:",
+      default: `${cwd}`
+    },
+    {
+      type: "editor", name: "title",
+      message: "Title:",
+      default: `${cwd}`
     },
     {
       type: "editor", name: "desc",
       message: "Desc:",
+      default: `${cwd}: `
     },
     {
       type: "editor", name: "install",
-      message: "How to install:"
+      message: "How to install:",
+      default: "Clone this repository and initialize any Node modules by running\n  npm init"
     },
     {
       type: "editor", name: "usage",
       message: "Usage:"
     },
     {
-      type: "input", name: "contrib",
-      message: "How to contribute:"
+      type: "editor", name: "questions",
+      message: "Questions:"
     },
     {
-      type: "editor", name: "test",
-      message: "How to test:"
+      type: "input", name: "contrib",
+      message: "How to contribute:",
+      default: "After cloning this repository, push to a custom branch and create a pull request."
+    },
+    {
+      type: "editor", name: "tests",
+      message: "How to test:",
+      default: "Run automated Jest tests with command:\n  node run test"
     },
     {
       type: "list", name: "license",
