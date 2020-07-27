@@ -12,7 +12,6 @@ const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
 const questions = [
-
 ];
 
 // function to write README file
@@ -28,16 +27,6 @@ async function init() {
   console.log("Generating README.md...");
   console.log("Just leave blank responses for unneeded sections.");
   const inputs = await getUI.getUserInput();
-  console.log("inputs.github\n"+inputs.github);
-  console.log("inputs.repo\n"+inputs.repo);
-  console.log("inputs.title\n"+inputs.title);
-  console.log("inputs.desc\n"+inputs.desc);
-  console.log("inputs.install\n"+inputs.install);
-  console.log("inputs.usage\n"+inputs.usage);
-  console.log("inputs.questions\n"+inputs.questions);
-  console.log("inputs.contrib\n"+inputs.contrib);
-  console.log("inputs.tests\n"+inputs.tests);
-  console.log("inputs.license\n"+inputs.license);
   await appendFileAsync(outName, genMD.generateMarkdown(inputs));
   await writeFileAsync("license.txt", inputs.license);
 }

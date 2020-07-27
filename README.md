@@ -4,6 +4,8 @@ Create a template README.md using Node modules to query for necessary
 information.  Template data is appended to the output file, which defaults to
 README.md.
 
+[![Readme-Generator-Node-App-preview.png](https://i.postimg.cc/BvpsC7Gh/Readme-Generator-Node-App-preview.png)](https://postimg.cc/2q1Pkwyv)
+
 ## Table of Contents
 - [Installation](https://github.com/johannsp/CWRUBC-Readme-Generator#Installation) 
 - [Usage](https://github.com/johannsp/CWRUBC-Readme-Generator#Usage) 
@@ -22,7 +24,7 @@ Clone this repository and initialize any required Node modules by running
 
 Usage: node index.js [overrideName.md]
 
-where the default output file is README.md
+where the default output file name is README.md
 
 ## License
 
@@ -47,6 +49,10 @@ Run automated Jest tests with command:
 
 ## Questions
 
-Q:
+Q: How can the text editor used for longer text sections be changed from
+Windows Notepad to some other editor?
 
-A:
+A: Set the VISUAL environment variable either in the Windows GUI or with a
+command such as:
+
+  set VISUAL="%PROGRAMFILES%\vim\vim82\gvim"
