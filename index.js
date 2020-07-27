@@ -8,6 +8,7 @@ const genMD = require("./utils/generateMarkdown.js");
 const getUI = require("./utils/getUserInput.js");
 
 const appendFileAsync = util.promisify(fs.appendFile);
+const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
 const questions = [
@@ -38,6 +39,7 @@ async function init() {
   console.log("inputs.tests\n"+inputs.tests);
   console.log("inputs.license\n"+inputs.license);
   await appendFileAsync(outName, genMD.generateMarkdown(inputs));
+  await writeFileAsync("license.txt", inputs.license);
 }
 
 // function call to initialize program
