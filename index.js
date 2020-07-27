@@ -28,7 +28,10 @@ async function init() {
   console.log("Just leave blank responses for unneeded sections.");
   const inputs = await getUI.getUserInput();
   await appendFileAsync(outName, genMD.generateMarkdown(inputs));
-  await writeFileAsync("license.txt", inputs.license);
+  // Let GitHub generate a license document, so do *not* write license.txt
+  /* {{{ **
+  ** await writeFileAsync("license.txt", inputs.license);
+  ** }}} */
 }
 
 // function call to initialize program
