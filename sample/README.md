@@ -1,24 +1,15 @@
 # Readme-Generator
 
-
-Generate starting README.md using Node modules
-
+Generate with Node modules a starting template for README.md file.
 
 ## Table of Contents
-- [Installation](https://github.com/johannsp/
-/CWRUBC-Readme-Generator#Installation) 
-- [Usage](https://github.com/johannsp/
-/CWRUBC-Readme-Generator#Usage) 
-- [License](https://github.com/johannsp/
-/CWRUBC-Readme-Generator#License) 
-- [Contributing](https://github.com/johannsp/
-/CWRUBC-Readme-Generator#) 
-- [Contributing](https://github.com/johannsp/
-/CWRUBC-Readme-Generator#Contributing) 
-- [Tests](https://github.com/johannsp/
-/CWRUBC-Readme-Generator#Tests) 
-- [Contributing](https://github.com/johannsp/
-/CWRUBC-Readme-Generator#Contributing) 
+- [Installation](https://github.com/johannsp/CWRUBC-Readme-Generator#Installation) 
+- [Usage](https://github.com/johannsp/CWRUBC-Readme-Generator#Usage) 
+- [License](https://github.com/johannsp/CWRUBC-Readme-Generator#License) 
+- [Contributing](https://github.com/johannsp/CWRUBC-Readme-Generator#) 
+- [Contributing](https://github.com/johannsp/CWRUBC-Readme-Generator#Contributing) 
+- [Tests](https://github.com/johannsp/CWRUBC-Readme-Generator#Tests) 
+- [Contributing](https://github.com/johannsp/CWRUBC-Readme-Generator#Contributing) 
 
 ## Installation
 
@@ -27,11 +18,9 @@ Clone this repository and initialize any Node modules by running
 
 ## Usage
 
-Run with an optional output file name as follows:
-  
-  node index.js
-  node index.js READ2ND.md
+Usage: node index.js [overrideName.md]
 
+where README.md is the default output file.
 
 ## License
 
@@ -40,7 +29,10 @@ see the LICENSE.md file for details
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+[![Known Vulnerabilities](https://snyk.io/test/github/johannsp/CWRUBC-Readme-Generator/badge.svg)?targetFile=package.json](https://snyk.io/test/github/johannsp/CWRUBC-Readme-Generator)
+[GitHub issues](https://img.shields.io/github/issues/johannsp/CWRUBC-Readme-Generator)
+[GitHub forks](https://img.shields.io/github/forks/johannsp/CWRUBC-Readme-Generator)
+[GitHub license](https://img.shields.io/github/license/johannsp/CWRUBC-Readme-Generator)
 
 ## Contributing
 
@@ -53,9 +45,6 @@ Run automated Jest tests with command:
 
 ## Questions
 
-Q: How can the text editor default be changed from Windows Notepad
+Q:
 
-A: Set the VISUAL environment variable, eg.
-
-  set VISUAL="%PROGRAMFILES%\vim\vim82\vim.exe"
-
+A:

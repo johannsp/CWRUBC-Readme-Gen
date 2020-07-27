@@ -7,8 +7,8 @@ function getUserInput() {
   return inquirer.prompt([
     {
       type: "editor", name: "github",
-      message: "Github Account Link:",
-      default: `https://github.com/${process.env.USERNAME}/`
+      message: "Github account link (excluding repository name):",
+      default: `https://github.com/${process.env.USERNAME}`
     },
     {
       type: "editor", name: "repo",
@@ -32,14 +32,16 @@ function getUserInput() {
     },
     {
       type: "editor", name: "usage",
-      message: "Usage:"
+      message: "Usage:",
+      default: "Usage: "
     },
     {
       type: "editor", name: "questions",
-      message: "Questions:"
+      message: "Questions:",
+      default: "Q:\n\nA:"
     },
     {
-      type: "input", name: "contrib",
+      type: "editor", name: "contrib",
       message: "How to contribute:",
       default: "After cloning this repository, push to a custom branch and create a pull request."
     },
