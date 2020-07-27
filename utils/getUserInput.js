@@ -56,6 +56,7 @@ function getUserInput() {
       choices: [
         "ISC",
         "MIT",
+        "Apache 2.0"
         "BSD 2-Clause",
         "BSD 2-Clause",
         "GNU GPLv3"
