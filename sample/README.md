@@ -1,26 +1,28 @@
 # Readme-Generator
 
-Generate with Node modules a starting template for README.md file.
+Create a template README.md using Node modules to query for necessary
+information.  Template data is appended to the output file, which defaults to
+README.md.
 
 ## Table of Contents
 - [Installation](https://github.com/johannsp/CWRUBC-Readme-Generator#Installation) 
 - [Usage](https://github.com/johannsp/CWRUBC-Readme-Generator#Usage) 
 - [License](https://github.com/johannsp/CWRUBC-Readme-Generator#License) 
-- [Contributing](https://github.com/johannsp/CWRUBC-Readme-Generator#) 
+- [Badges](https://github.com/johannsp/CWRUBC-Readme-Generator#Badges) 
 - [Contributing](https://github.com/johannsp/CWRUBC-Readme-Generator#Contributing) 
 - [Tests](https://github.com/johannsp/CWRUBC-Readme-Generator#Tests) 
-- [Contributing](https://github.com/johannsp/CWRUBC-Readme-Generator#Contributing) 
+- [Questions](https://github.com/johannsp/CWRUBC-Readme-Generator#Questions) 
 
 ## Installation
 
-Clone this repository and initialize any Node modules by running
+Clone this repository and initialize any required Node modules by running
   npm init
 
 ## Usage
 
 Usage: node index.js [overrideName.md]
 
-where README.md is the default output file.
+where the default output file is README.md
 
 ## License
 
@@ -30,9 +32,9 @@ see the LICENSE.md file for details
 ## Badges
 
 [![Known Vulnerabilities](https://snyk.io/test/github/johannsp/CWRUBC-Readme-Generator/badge.svg)?targetFile=package.json](https://snyk.io/test/github/johannsp/CWRUBC-Readme-Generator)
-[GitHub issues](https://img.shields.io/github/issues/johannsp/CWRUBC-Readme-Generator)
-[GitHub forks](https://img.shields.io/github/forks/johannsp/CWRUBC-Readme-Generator)
-[GitHub license](https://img.shields.io/github/license/johannsp/CWRUBC-Readme-Generator)
+[![GitHub issues](https://img.shields.io/github/issues/johannsp/CWRUBC-Readme-Generator)](https://img.shields.io/github/issues/johannsp/CWRUBC-Readme-Generator)
+[![GitHub forks](https://img.shields.io/github/forks/johannsp/CWRUBC-Readme-Generator)](https://img.shields.io/github/forks/johannsp/CWRUBC-Readme-Generator)
+[![GitHub license](https://img.shields.io/github/license/johannsp/CWRUBC-Readme-Generator)](https://img.shields.io/github/license/johannsp/CWRUBC-Readme-Generator)
 
 ## Contributing
 
