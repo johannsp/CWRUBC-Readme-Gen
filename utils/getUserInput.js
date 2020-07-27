@@ -56,7 +56,7 @@ function getUserInput() {
       choices: [
         "ISC",
         "MIT",
-        "Apache 2.0"
+        "Apache 2.0",
         "BSD 2-Clause",
         "BSD 2-Clause",
         "GNU GPLv3"
@@ -66,4 +66,4 @@ function getUserInput() {
   ]);
 }
 
-module.exports.getUserInput = getUserInput;
+module.exports = { getUserInput }

@@ -73,4 +73,4 @@ ${questions}
 `;
 }
 
-module.exports.generateMarkdown = generateMarkdown;
+module.exports = { generateMarkdown }
