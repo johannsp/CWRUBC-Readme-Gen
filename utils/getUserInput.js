@@ -28,7 +28,7 @@ function getUserInput() {
     {
       type: "editor", name: "install",
       message: "How to install:",
-      default: "Clone this repository and initialize any required Node modules by running\n  npm init"
+      default: "Clone this repository and initialize any required Node modules by running\n> npm init"
     },
     {
       type: "editor", name: "usage",
@@ -48,7 +48,7 @@ function getUserInput() {
     {
       type: "editor", name: "tests",
       message: "How to test:",
-      default: "Run automated Jest tests with command:\n  node run test"
+      default: "Run automated Jest tests with command:\n> node run test"
     },
     {
       type: "list", name: "license",

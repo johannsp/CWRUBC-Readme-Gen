@@ -14,7 +14,7 @@ Create template for a README.md file using Node modules to request information.
 ## Installation
 
 Clone this repository and initialize any required Node modules by running
-  npm init
+> npm init
 
 ## Usage
 
@@ -41,7 +41,7 @@ After cloning this repository, push to a custom branch and create a pull request
 ## Tests
 
 Run automated Jest tests with command:
-  node run test
+> node run test
 
 ## Questions
 
@@ -51,4 +51,4 @@ Windows Notepad to some other editor?
 A: Set the VISUAL environment variable either in the Windows GUI or with a
 command such as:
 
-  set VISUAL="%PROGRAMFILES%\vim\vim82\gvim"
+> set VISUAL="%PROGRAMFILES%\vim\vim82\gvim"
