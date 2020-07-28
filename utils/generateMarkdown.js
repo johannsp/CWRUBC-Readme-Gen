@@ -54,7 +54,7 @@ see the LICENSE.md file for details
 
 ## Badges
 
-[![Known Vulnerabilities](https://snyk.io/test/github/${gitHubAcct}/${repo}/badge.svg)?targetFile=package.json](https://snyk.io/test/github/${gitHubAcct}/${repo})
+[![Known Vulnerabilities](https://snyk.io/test/github/${gitHubAcct}/${repo}/badge.svg?targetFile=package.json)](https://snyk.io/test/github/${gitHubAcct}/${repo})
 [![GitHub issues](https://img.shields.io/github/issues/${gitHubAcct}/${repo})](https://img.shields.io/github/issues/${gitHubAcct}/${repo})
 [![GitHub forks](https://img.shields.io/github/forks/${gitHubAcct}/${repo})](https://img.shields.io/github/forks/${gitHubAcct}/${repo})
 [![GitHub license](https://img.shields.io/github/license/${gitHubAcct}/${repo})](https://img.shields.io/github/license/${gitHubAcct}/${repo})

@@ -29,7 +29,7 @@ see the LICENSE.md file for details
 
 ## Badges
 
-[![Known Vulnerabilities](https://snyk.io/test/github/johannsp/CWRUBC-Readme-Generator/badge.svg)?targetFile=package.json](https://snyk.io/test/github/johannsp/CWRUBC-Readme-Generator)
+[![Known Vulnerabilities](https://snyk.io/test/github/johannsp/CWRUBC-Readme-Generator/badge.svg?targetFile=package.json)](https://snyk.io/test/github/johannsp/CWRUBC-Readme-Generator)
 [![GitHub issues](https://img.shields.io/github/issues/johannsp/CWRUBC-Readme-Generator)](https://img.shields.io/github/issues/johannsp/CWRUBC-Readme-Generator)
 [![GitHub forks](https://img.shields.io/github/forks/johannsp/CWRUBC-Readme-Generator)](https://img.shields.io/github/forks/johannsp/CWRUBC-Readme-Generator)
 [![GitHub license](https://img.shields.io/github/license/johannsp/CWRUBC-Readme-Generator)](https://img.shields.io/github/license/johannsp/CWRUBC-Readme-Generator)
