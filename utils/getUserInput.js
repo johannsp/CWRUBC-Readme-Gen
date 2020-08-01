@@ -28,7 +28,7 @@ function getUserInput() {
     {
       type: "editor", name: "install",
       message: "How to install:",
-      default: "Clone this repository and initialize any required Node modules by running\n> npm init"
+      default: "Clone this repository and initialize any required Node modules by running\n> npm install"
     },
     {
       type: "editor", name: "usage",
