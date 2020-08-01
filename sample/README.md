@@ -14,7 +14,7 @@ Create template for a README.md file using Node modules to request information.
 ## Installation
 
 Clone this repository and initialize any required Node modules by running
-> npm init
+> npm install
 
 ## Usage
 
